@@ -1,0 +1,19 @@
+{
+  "name": "js-frameworks-ma1",
+  "version": "1.0.0",
+  "description": "JS Frameworks MA1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bryjho/bryan-villafuerte-js-frameworks-ma-1-level-2.git"
+  },
+  "author": "Bryan Villafuerte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bryjho/bryan-villafuerte-js-frameworks-ma-1-level-2/issues"
+  },
+  "homepage": "https://github.com/bryjho/bryan-villafuerte-js-frameworks-ma-1-level-2#readme"
+}
