@@ -1,3 +1,74 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #212529;
+  color: #f2f2f2;
+}
 
+.container-fluid {
+  height: 100vh;
+}
+.container-fluid #slider {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+  border-radius: 10px;
+}
+.container-fluid #slider ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  list-style: none;
+}
+.container-fluid #slider li {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 60vw;
+  height: 70vh;
+  background: #0a0a0a;
+  text-align: center;
+}
+.container-fluid #slider li img {
+  width: 100%;
+}
+.container-fluid a.control_prev, .container-fluid a.control_next {
+  position: absolute;
+  top: 40%;
+  z-index: 999;
+  display: block;
+  padding: 4% 3%;
+  width: auto;
+  height: auto;
+  background: #2a2a2a;
+  color: #f2f2f2;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 24px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.container-fluid a.control_prev:hover, .container-fluid a.control_next:hover {
+  opacity: 1;
+  -webkit-transition: all 0.2s ease;
+}
+.container-fluid a.control_prev {
+  border-radius: 0 2px 2px 0;
+}
+.container-fluid a.control_next {
+  right: 0;
+  border-radius: 2px 0 0 2px;
+}
+.container-fluid .slider_option {
+  position: relative;
+  margin: 10px auto;
+  width: 160px;
+  font-size: 18px;
+}
 
 /*# sourceMappingURL=styles.css.map */
