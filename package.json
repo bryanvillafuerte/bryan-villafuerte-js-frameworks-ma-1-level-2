@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/bryjho/bryan-villafuerte-js-frameworks-ma-1-level-2#readme",
   "dependencies": {
-    "jquery": "^3.4.1"
+    "jquery": "^3.5.0"
   }
 }
